@@ -8,6 +8,45 @@
     <title>Contact</title>
 </head>
 <body>
-    
+    <h1>Reach out!</h1>
+    <h2>Lennert Torfs</h2>
+    <a href="mailto: lennerttorfs@hotmail.be">lennerttorfs@hotmail.be</a>
+    <div>
+        <a href="tel: +32488033313">+32488033313</a>
+    </div>
+
+    <form action=" https://tm-statweb.be/sendmail.php" method="get">
+        <div>
+            <label for="naam">
+                <input 
+                type="text" 
+                id="naam" 
+                name="naam" 
+                required 
+                
+                placeholder="Naam">
+            </label>
+        </div>
+        <div>
+            <label for="mail">
+                <input type="email"
+                name="emailadress" 
+                id="emailadress"
+                required
+                placeholder="E-mailadress">
+            </label>
+        </div>
+        <div>
+            <textarea name="onderwerp" id="onderwerp" rows="1" required placeholder="Onderwerp"></textarea>
+        </div>
+        <div>
+            <textarea name="reactie" id="reactie" required></textarea>
+        </div>
+        <div>
+            <input type="submit" name="submit" id="submit ">
+        </div>
+    </form>
+
+
 </body>
 </html>
