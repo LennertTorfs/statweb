@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+ height: 500px;
+ float: left;
+ background-color: gray;
+ 
+}

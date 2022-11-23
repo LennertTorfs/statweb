@@ -1,0 +1,28 @@
+body{
+    background-color: grey ;
+}
+
+.yellow{
+
+    height: 100px;
+    background-color: yellow;
+    width: 50%;
+    text-align: center;
+
+}
+
+.red{
+
+    background-color: red;
+    height: 200px;
+    width: 75%  ;
+    padding: 5px;
+}
+
+.white{
+
+    background-color: white;
+    height: 300px;
+    width: 50%;
+    padding: 5px;
+}

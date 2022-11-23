@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.column-25{
+    float: left;
+    padding: 15px;
+    width: 25%;
+}
+
+.column-60{
+    float: left;
+    width: 60%;
+    padding: 15px;
+}
+
+.column-40{
+    float: right;
+    width: 40%;
+    padding: 15px;
+}
+
+.row:after{
+    content:"";
+    clear: both;
+    display: table;
+}
+
+@media (max-width: 600px){
+    .column-25{
+        width: 100%;
+    }
+
+    .column-40{
+        width: 100%;
+    }
+    .column-60{
+        width: 100%;
+    }
+}
