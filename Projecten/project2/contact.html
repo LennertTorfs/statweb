@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lennert Torfs">
+    <link rel="icon" href="Icons/favicon.ico" type="image/x-icon" sizes="16x16">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">Start</a>
+        <a href="cv.html">Cv</a>
+        <a href="ervaring.html">Ervaring</a>
+        <a href="hobby's.html">Hobby's / Interesses</a>
+        <a class="active" href="contact.html">Contact</a>
+      </div>
+    <h1>Reach out!</h1>
+    <h2>Lennert Torfs</h2>
+    <p>Email: <a href="mailto: contact@lennerttorfs.be">contact@lennerttorfs.be</a></p>
+    <div>
+        <p>Telefoonnummer: <a href="tel: +32488033313">+32488033313</a></p>
+    </div>
+
+    <form action="sendmail.php" method="post">
+        <div>
+            <label for="naam">
+                <input 
+                type="text" 
+                id="naam" 
+                name="naam" 
+                required 
+                
+                placeholder="Naam">
+            </label>
+        </div>
+        <div>
+            <label for="mail">
+                <input type="email"
+                name="emailadress" 
+                id="emailadress"
+                required
+                placeholder="E-mailadress">
+            </label>
+        </div>
+        <div>
+            <textarea name="onderwerp" id="onderwerp" rows="1" required placeholder="Onderwerp"></textarea>
+        </div>
+        <div>
+            <textarea name="reactie" id="reactie" required placeholder="Vraag"></textarea>
+        </div>
+        <div>
+            <input type="submit" name="submit" id="submit ">
+        </div>
+    </form>
+    <div class = "onder">
+        <h3>Connect with me!</h3>
+        <a href="http://www.linkedin.com/in/lennert-torfs-9850a2211"> <img src = "icons/linkedin.png" alt="linkedin" class = "linkedinicon"
+        ></img>
+    </div>
+
+
+</body>
+</html>
