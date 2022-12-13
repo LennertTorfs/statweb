@@ -17,55 +17,69 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>Start</title>
   </head>
   <body>
-    <nav class="topnav">
-      <a class="active" href="index.html">Start</a>
-      <a href="cv.html">Cv</a>
-      <a href="ervaring.html">Ervaring</a>
-      <a href="hobby's.html">Hobby's / Interesses</a>
-      <a href="contact.html">Contact</a>
+    <nav class="navbar navbar-expand-md bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" id="logo" href="#">Lennert</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="cv.html">CV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="ervaring.html"
+                >Ervaring</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="hobby's.html"
+                >Hobby's / interesses</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
     <div class="container">
-        <div class="row">
-            <div class="col">
-                <div class="image ">
-                  <img src="afbeeldingen/foto 1.jpg" class="img-fluid" alt="Lennert Torfs" />
-                </div>
-              </div>
-              <div class="col">
-                <h2>Hey, welkom</h2>
-            
-                  <p>
-                    Leuk dat je me gevonden hebt. Laat me mezelf even voorstellen: Hey
-                    ik ben Lennert Torfs, 23 jaar oud en programmeur in wording.
-                  </p>
-                  <p>
-                    Ik ben een sportfan, vooral formule 1 en voetbal. Ik hou van lekker
-                    eten en iets gaan drinken met vrienden. Als ik mijn perfecte zondag
-                    zou beschrijven is het ook een combinatie van deze dingen: Rustig
-                    met vrienden thuis formule 1 kijken met een hapje en een drankje.
-                    Daarnaast speel ik ook squash. Maar al deze dingen kan je
-                    terugvinden op mijn
-                    <a href="hobby's.html">hobby's en interesses</a> pagina.
-                  </p>
-                  <p>
-                    "Al 23 jaar en nog steeds student" hoor ik je misschien wel denken.
-                    Hoe dat komt en wat ik allemaal gedaan heb ontdek je op mijn
-                    <a href="cv.html">cv</a>. Wat ik daar allemaal geleerd heb dat
-                    relevant is voor programmeren vind je terug bij
-                    <a href="ervaring.html">mijn ervaringen.</a>
-                  </p>
-                  <p>
-                    Leer me beter kennen door wat rond te snuffelen om mijn website.
-                  </p>
-                
-              </div>
-        </div> 
-
+      
     </div>
+
+    <footer id="footer" class="bg-dark p-3">
+      <div class="row">
+        <div class="col md">
+          <p class="text-light">&copy; Lennert Torfs</p>
+        </div>
+        <div class="col md">
+          <p class="text-light">Connect with me!</p>
+          <a href="http://www.linkedin.com/in/lennert-torfs-9850a2211" target="_blank"><i class="bi bi-linkedin"></i></a>
+          <a href="mailto:r0791450@student.thomasmore.be"><i class="bi bi-envelope-at"></i></a>
+        </div>
+      </div>
+    </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
