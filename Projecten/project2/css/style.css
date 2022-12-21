@@ -29,8 +29,33 @@
     
 }
 
+.card-img-top2{
+    width: auto;
+    height: 70%;
+}
 
+u{
+    color: #D22B2B;;
+}
 
+.underlined{
+    text-decoration: underline;
+    text-decoration-color: #D22B2B;;
+}
+  
+
+.cv{
+    width: auto;
+    height: 40%;
+}
+
+.hobby{
+    aspect-ratio: 100%
+}
+
+#uc{
+    width: 100%;
+}
 
 
 
