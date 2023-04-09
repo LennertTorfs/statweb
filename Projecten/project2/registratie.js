@@ -42,8 +42,19 @@ const betaling = document.getElementById("betaling");
 //https://stackoverflow.com/questions/13717648/how-to-display-multiple-error-messages-on-the-same-page-using-javascript
 document.getElementById("submit-button").addEventListener("click",valideteForm);
 
-let error[];
+let errors[];
 
 function valideteForm(){
-    
+    let naam = document.getElementById('naam');
+    let voornaam = document.getElementById('voornaam');
+    let gebruikersnaam = document.getElementById('gebruikersnaam');
+    let email = document.getElementById('inputEmail4');
+    let wachtwoord = document.getElementById('inputPassword4');
+    let wachtwoord2 = document.getElementById('inputPassword42');
+    let adres = document.getElementById('adres');
+    let land = document.getElementById('land');
+    let provincie = document.getElementById('provincie');
+    let postcode = document.getElementById('postcode');
+
+
 }

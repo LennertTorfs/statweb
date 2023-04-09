@@ -72,7 +72,7 @@
       <div class="row">
         <div class="col-md-9" id="form">
           <p>Meld je aan bij Anoroc Services, wij beschermen jouw software tegen malware!</p>
-          <form>
+          <form action="">
             <div class="row py-3">
               <div class="col-md">
                 <label for="voornaam" class="form-label">Voornaam</label>
@@ -202,8 +202,24 @@
           </form>
         </div>
         <div class="col-md">
-          <div class="alert alert-primary" role="alert">
-            A simple primary alert—check it out!
+            <div class="row mt-5">
+              <div class="alert alert-danger visually-hidden" role="danger" id="errorV">
+                <h4 class="alert-heading">Yikes errors...</h4>
+                <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="alert alert-success visually-hidden" role="alert" id="succes">
+                <h4 class="alert-heading">Goed gedaan!</h4>
+                <p>Aww yeah, je werd geregistreerd.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="alert alert-info visually-hidden" role="info" id="betalingswijze">
+                <h4 class="alert-heading">Betalingswijze</h4>
+                <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
